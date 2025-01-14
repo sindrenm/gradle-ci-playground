@@ -1,7 +1,7 @@
 [versions]
 junit4 = "4.12"
 kotlin = "2.1.0"
-slf4j = "1.7.25"
+slf4j = "1.7.36"
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
