@@ -1,11 +1,13 @@
 [versions]
-junit4 = "4.12"
+agp = "8.8.0"
+androidx-activity = "1.9.3"
 kotlin = "2.1.0"
-slf4j = "1.7.25"
 
 [plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 
 [libraries]
-junit4 = { module = "junit:junit", version.ref = "junit4" }
-slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4j"}
+android-material = "com.google.android.material:material:1.12.0"
+androidx-activity = { module = "androidx.activity:activity", version.ref = "androidx-activity" }
